@@ -26,14 +26,19 @@ main::after{
 .informacoes .logo{
     max-width: 350px;
     filter: invert(0);
-    margin-bottom: 80px;
+    margin-bottom: 2rem;
+    left: 2rem;
 }
 
 .informacoes .descricao{
-    width: 39%;
-    font-size: 20px;
+    width: 100vh;
+    max-width: 400px;
+    margin: 2rem;
+    font-size: 17px;
     color: #ffffff;
-    line-height: 30px;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 10%;
 }
 
 .botoes-carrossel{
@@ -71,17 +76,17 @@ main::after{
 .menu-lateral ul{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 1.5rem;
 }
 
 .menu-lateral .icone{
-    width: 30px;
+    width: 35px;
     filter: invert(1);
     transition: 0.3s ease-in-out;
 }
 
 .menu-lateral .icone:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 .carrossel {
